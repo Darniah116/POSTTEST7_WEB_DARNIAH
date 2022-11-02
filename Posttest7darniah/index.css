@@ -1,0 +1,372 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open sans', sans-serif;
+
+}
+.header{
+    background-color: #333434;
+    height: 90px;
+    color: #fff;
+}
+
+li{
+    list-style: none;
+}
+
+.header-logo{
+    font-size:36px;
+    float: left;
+    padding: 20px 40px;
+}
+.header-list li {
+    float: left;
+    padding: 33px 20px;
+}
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+img{
+    height: 60vh;
+    width: 100%;
+    padding-right:10px;
+    font-size: 800px ;
+
+
+}
+.logo a{
+    font-size: 50px;
+    font-weight: 1100px;
+    float: left;
+    font-family: courier;
+    color:pink;
+    font-family: "Brush Script MT";
+    padding-left: 30px;
+}
+.container .logo a{
+    font-size: 50px;
+    font-weight: 800px;
+    float: left;
+    font-family: courier;
+    color:pink;
+    background-color: #24b7e8;
+}
+.menu{
+    float:right;
+}
+.menu ul li a:hover{
+    background-color: silver;
+    color: steelblue;
+
+}
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background:#19a6e3;
+    z-index: 1;
+    border-bottom: 1px solid #799df7;
+
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    color:#dedede;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+
+}
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.kolom .deskripsi{
+    padding-top: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans-ms';
+    color: #364f6b;
+}
+
+a.tbl-pastel{
+    background: #5181fc;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px ;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+p{
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+a.tbl-pastel:hover{
+    background: #364f6b;
+    text-decoration: none;
+
+}
+
+.main{
+    width: 100;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.namabajumuslim {
+    width: 20%;
+    margin: 0 auto;
+}
+.namabajumuslim img{
+    width: 80%;
+    margin-top: 20px;
+    font-size: 30%;
+}
+.namabajumuslim p{
+    font-family:"comic sans ms" ;
+    font-weight: 800;
+    font-size: 15px;
+    text-align: center;
+    color: #364f6b;
+}
+#contact{
+    background:#868585;
+    padding: 50px 0px 50px 0px;
+}
+#About{
+    background:#bebcbc;
+    padding: 50px 40px 50px 40px;
+    font-family: "comic sans ms" ;
+    font-size: 15px;
+    padding-top: 150px;
+}
+.footer{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.footer-section{
+    width: 20%;
+    margin: 0 auto;
+}
+h3{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: black;
+    width: 100%;
+    line-height: 50px;
+}
+
+#copyright{
+    text-align: center ;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+.button{
+    padding: 10px;
+    cursor: pointer;
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+}
+.button check-out{
+    display: none;
+    background-color: #dedede;
+}
+.button melihat-pesanan{
+    background-color:#333434;
+    color: #fff;
+}
+body.check-out{
+    background-color: #44a5a5;
+}
+.melihat-pesanan{
+    background-color: #44a5a5;
+}
+.check-out.button.check-out{
+    display: inline;
+}
+.melihat-pesanan.button .melihat-pesanan{
+    display: none ;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/* INDEX.PHP */
+
+h1.title {
+	padding: 20px 0;
+}
+
+.content {
+	margin: 30px;
+}
+
+table {
+	border-collapse: collapse;
+	width: 50%;
+}
+
+th,
+td {
+	text-align: center;
+	padding: 10px;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+th {
+	background-color: #198754;
+	color: white;
+	padding: 15px;
+}
+
+button {
+	padding: 10px 15px;
+	color: white;
+	border: 0;
+	border-radius: 10px;
+	cursor: pointer;
+	margin: 5px;
+}
+
+button.create {
+	background-color: #0c66ec;
+	padding: 15px 15px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+button.create i {
+	margin: 5px;
+}
+
+button.update {
+	background-color: #fd7e14;
+}
+
+
+button.delete {
+	background-color: #df2538;
+}
+button.cari_data {
+	background-color: #df2538;
+}
+
+button.create:hover,
+button.update:hover,
+button.delete:hover {
+	filter: brightness(120%);
+}
+
+/* FORM.PHP */
+
+.container {
+	display: flex;
+	margin: 20px auto;
+	width: 50%;
+	flex-direction: column;
+	padding: 10px;
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+}
+
+.container .form-header {
+	display: flex;
+	justify-content: center;
+	padding: 5px;
+}
+
+.container .form-content {
+	padding: 10px;
+}
+
+.container .form-area {
+	margin: 25px 0;
+}
+
+.container .form-input input {
+	margin-top: 5px;
+	padding: 5px 10px;
+	width: 100%;
+}
+
+.container .form-input-radio input {
+	margin: 5px;
+}
+
+.container .form-button {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.container .form-button button {
+	width: 100%;
+	padding: 10px 15px;
+	background-color: #0c66ec;
+	font-weight: 700;
+	font-size: 16px;
+}
+
+.container .form-button a {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.login{
+    text-decoration: none;
+    margin: 10px;
+    padding: 50px;
+}
+.button Username{
+    background-color:#333434;
+    color: #fff;
+}
